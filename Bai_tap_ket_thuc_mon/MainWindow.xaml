@@ -1,0 +1,12 @@
+﻿<Window x:Class="Bai_tap_ket_thuc_mon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btnConCho" Content="ConCho" HorizontalAlignment="Left" VerticalAlignment="Top" Width="121" Margin="79,103,0,0" Height="81" Click="btnConCho_Click"/>
+        <Button x:Name="btnConMeo" Content="ConMeo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="114" Margin="327,103,0,0" Height="81" Click="btnConMeo_Click"/>
+        <TextBox Name="txtConMeo" HorizontalAlignment="Left" Height="23" Margin="327,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtConCho" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="80,34,0,0"/>
+
+    </Grid>
+</Window>
